@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorActivity">
+<!--    This file came from my sensor lab submission-->
+    <!--Images all made with: https://vectr.com/-->
+    <ImageView
+        android:id="@+id/horizontalBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84000003"
+        app:srcCompat="@drawable/horizontal_blank"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/horizontalBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalBar"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/horizontalBar"
+        app:layout_constraintTop_toTopOf="@+id/horizontalBar"
+        app:srcCompat="@drawable/horizontal_bubble_cropped"
+        android:contentDescription="A bubble in a horizontal bar, 50% of the way right." />
+
+
+    <ImageView
+        android:id="@+id/horizontalTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/horizontalBar"
+        app:layout_constraintEnd_toEndOf="@+id/horizontalBar"
+        app:layout_constraintStart_toStartOf="@+id/horizontalBar"
+        app:layout_constraintTop_toTopOf="@+id/horizontalBar"
+        app:srcCompat="@drawable/horizontal_targets"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/verticalBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002"
+        app:srcCompat="@drawable/vertical_blank"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/verticalBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/verticalBar"
+        app:layout_constraintEnd_toEndOf="@+id/verticalBar"
+        app:layout_constraintStart_toStartOf="@+id/verticalBar"
+        app:layout_constraintTop_toTopOf="@+id/verticalBar"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/vertical_bubble_cropped"
+        android:contentDescription="A bubble in a vertical bar, 50% of the way down." />
+
+    <ImageView
+        android:id="@+id/verticalTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/verticalBar"
+        app:layout_constraintEnd_toEndOf="@+id/verticalBar"
+        app:layout_constraintStart_toStartOf="@+id/verticalBar"
+        app:layout_constraintTop_toTopOf="@+id/verticalBar"
+        app:srcCompat="@drawable/vertical_targets"
+        android:contentDescription="@null" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/quit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

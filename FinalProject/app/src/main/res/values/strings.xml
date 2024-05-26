@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Nonsense App</string>
+    <string name="x">X</string>
+    <string name="place_your_bet">Place Your Bet:</string>
+    <string name="continueText">Continue</string>
+    <string name="back">Back</string>
+    <string name="waiting_for_a_question" tools:ignore="ExtraTranslation">Waiting for a question…</string>
+    <string name="next_question" tools:ignore="ExtraTranslation">Next Question</string>
+    <string name="correct" tools:ignore="ExtraTranslation">CORRECT</string>
+    <string name="incorrect" tools:ignore="ExtraTranslation">INCORRECT</string>
+    <string name="quit">Quit</string>
+    <string name="play_liar_s_dice">Play Liar\'s Dice</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="open_level">Open Level</string>
+    <string name="welcome_to_ndylan_s_nonsense_app">Welcome to\nDylan\'s Nonsense App</string>
+    <string name="open_trivia">Open Trivia</string>
+</resources>
